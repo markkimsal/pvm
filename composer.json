@@ -10,6 +10,12 @@
         "petri net",
         "bpmn"
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/markkimsal/values.git"
+        }
+    ],
     "autoload": {
         "psr-4": { "Formapro\\Pvm\\": "src/" }
     },
@@ -17,13 +23,13 @@
         "psr-4": { "Tests\\": "tests/" }
     },
     "require": {
-        "php": "^7.1",
-        "formapro/values": "^0.5",
+        "php": "^7.1|^8.0",
+        "formapro/values": "dev-master",
         "ramsey/uuid": "^3",
         "psr/log": "^1"
     },
     "require-dev": {
-        "enqueue/simple-client": "^0.9"
+        "enqueue/simple-client": "~0.9"
     },
     "suggest": {
         "enqueue/enqueue": "^0.9 Install the Enqueue library to be able to process tasks async (by using MQ).",
