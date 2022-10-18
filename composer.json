@@ -25,7 +25,7 @@
     "require": {
         "php": "^7.1|^8.0",
         "formapro/values": "dev-master",
-        "ramsey/uuid": "^3",
+        "ramsey/uuid": "^3|^4.0",
         "psr/log": "^1"
     },
     "require-dev": {
